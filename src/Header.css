@@ -1,0 +1,57 @@
+.Header nav
+{
+  padding-top: 15px;
+  padding-bottom: 1px;
+  box-shadow: 2px 3px 1px 0px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: 2px 3px 1px 0px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 2px 3px 1px 0px rgba(0, 0, 0, 0.34);
+}
+.Header input#search
+{
+  background-image: url("./images/fbsearch.svg");
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: bottom 50% left 3%;
+  border-radius: 12px;
+  text-indent: 20px;
+  padding: 5px 7px;
+  transition: 0.3s;
+  width: 300px;
+}
+.Header input#search:focus
+{
+  background-image: none;
+  text-indent: 0px;
+}
+.Header .icon
+{
+  width: 40px;
+}
+.Header .iconEnd
+{
+  width: 40px;
+  background-color: #E4E6EB;
+  padding: 7px;
+  border-radius: 40px;
+}
+ul
+{
+  text-align: center;
+}
+li
+{
+  font-size: 18px;
+  list-style-type: none;
+  list-style-position: inside;
+  display: inline-block;
+  padding: 0px 0px 0px 1%;
+  margin-left: 0px;
+}
+li.iconCenter
+{
+  padding: 0px 0px 0px 5%;
+}
+.icon:hover
+{
+  cursor: pointer;
+}
